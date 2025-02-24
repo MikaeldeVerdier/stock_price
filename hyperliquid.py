@@ -5,7 +5,7 @@ import eth_account
 from eth_account.signers.local import LocalAccount
 
 info = Info(constants.MAINNET_API_URL, skip_ws=True)
-public_key = "" #enter public key
+public_key = " " # enter public key
 private_key = " " # enter private key
 user_state = info.user_state(public_key)
 print(user_state)
